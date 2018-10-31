@@ -3,18 +3,7 @@
 
 ---
 
-Zad 1.
-
-Niech `even = range(2, 100, 2)`. Korzystając z operatora *splat* (`*`):
-
-- przypisz trzy pierwsze elementy zmiennym `a, b, c`, a pozostałe zmiennej `d`
-- przypisz trzy pierwsze elementy zmiennym `a, b, c`, a pozostałe zmiennej `_`
-- stwórz zmienne `start` i `end`, które odpowiednio przyjmą wartość pierwszego i ostatniego elementu
-- stwórz nową listę, która będzie zawierać wszystkie elementy oprócz pierwszego i ostatniego
-
----
-
-Zad 2.
+Zad 1
 
 Wykorzystaj listę składaną (*list comprehension*), aby stworzyć sekwencję kwadratów liczb naturalnych mniejszych od 100. Następnie (korzystając z *enumerate*) wydrukuj na ekranie:
 
@@ -29,7 +18,7 @@ Wykorzystaj listę składaną (*list comprehension*), aby stworzyć sekwencję k
 
 ---
 
-Zad 3.
+Zad 2.
 
 Przeanalizuj poniższy kod:
 
@@ -53,7 +42,7 @@ while i < 10:
 
 ---
 
-Zad 4.
+Zad 3.
 
 Uzupełnij skrypt o brakujące fragmenty:
 
@@ -65,19 +54,15 @@ Uzupełnij skrypt o brakujące fragmenty:
 # lista zakupów
 grocery = ['jajka', 'mleko', 'chleb', 'maslo', 'piwo']
 # ilość sztuk
-n_items = []
+n_items = {}
 # zakazane produkty
 prohibited = ['wódka', 'piwo', 'wino']
 
 # w pętli pytamy użytkownika, ile sztuk danego produktu chce kupić
 for product in grocery:
     # wydrukuj na ekranie komunikat: "Produkt [nazwa produktu]: sztuk = "
-    # pobierz liczbę od użytkownika i zapisz w n_items
+    # pobierz liczbę od użytkownika i zapisz w n_items dla danego produktu
     # pomiń produkty zakazane (i automatycznie przyjmij ilość = 0)
-
-# drukujemy listę zakupów
-
-print("{:-^50}".format("Lista zakupów"), end="\n\n")
 
 # w pętli wydrukuj: [lp]. [nazwa produktu]: [ilość]
 # czyli np.: 1. jajka: 5 itd.
@@ -85,7 +70,7 @@ print("{:-^50}".format("Lista zakupów"), end="\n\n")
 
 ---
 
-Zad 5.
+Zad 4.
 
 Napisz skrypt, który:
 
@@ -103,7 +88,7 @@ Napisz skrypt, który:
 
 ---
 
-Zad 6.
+Zad 5.
 
 Poniższy skrypt narysuje kwadrat:
 
@@ -112,22 +97,20 @@ Poniższy skrypt narysuje kwadrat:
 
 import turtle
 
-length = eval(input("Podaj długość boku: "))
-n_sides = 4 # ilość boków
+length = eval(input("Podaj dł\lugosc boku: "))
+n_sides = 4 # ilosc boków
 
-turtle.speed(20) # ustal prędkość żółwia
+turtle.speed(20) # ustal predkosc zolwia
 
-# powtórz n_sides razy
+# powtorz n_sides razy
 for i in range(n_sides):
-    turtle.forward(length) # narysuj linię o danej długości
-    turtle.right(90)       # obróć się w prawo o dany kąt
+    turtle.forward(length) # narysuj linie o danej dlugosci
+    turtle.right(90)       # obroc sie w prawo o dany kat
 
 turtle.mainloop() # nie zamykaj okna po narysowaniu
 ```
 
-- zmodyfikuj go tak, aby narysował trójkąt równoboczny
-- zmodyfikuj go tak, aby narysował sześciokąt foremny
-- zmodyfikuj go tak, aby narysował wielokąt foremny, którego liczba boków podana jest przez użytkownika
-- zmodyfikuj go tak, aby wielokąt rysowany był N razy (N podane przez użytkownika); każdy kolejny obrócony o odpowiedni kąt (aż do wykonania pełnego kąta); poniżej przykład dla 50 kwadratów:
+5.1 zmodyfikuj go tak, aby narysował trójkąt równoboczny
+5.2 zmodyfikuj go tak, aby narysował sześciokąt foremny
+5.3 zmodyfikuj go tak, aby narysował wielokąt foremny, którego liczba boków podana jest przez użytkownika
 
-![turtle example](src/turtle_example.png)

@@ -33,7 +33,7 @@ Plik [studenci_cpp.txt](src/studenci_cpp.txt) zawiera listę studentów uczęszc
 
 Napisz skrypt, który wydrukuję listę studentów uczęszczających na oba wykłady.
 
-*Wsk: set.intersection*
+*Wsk: set lub set.intersection cmp()*
 
 ---
 

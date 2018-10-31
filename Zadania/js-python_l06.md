@@ -3,14 +3,6 @@
 
 ---
 
-Lista do samodzielnego wykonania w trakcie zajęć.
-
-Pod koniec zajęć każdy wysyła swoje rozwiązania na maila.
-
-Każde zadanie w osobnym pliku: nazwisko_imie_zad_[numer].py.
-
-Proszę zlitować się nad prowadzącymi i zadbać o to, żeby kod był czytelny
-i odpowiednio komentowany. Dłuższe programy proszę rozbijać na mniejsze funkcje.
 Każda funkcja powinna być opisana *docstringiem*.
 
 ---
@@ -53,9 +45,4 @@ które są długościami boków trójkąta (można założyć, że podane argume
 
 W przypadku złej liczby argumentów program powinien wyświetlić odpowiedni komunikat i zakończyć działanie.
 
----
 
-Zad 4. (dla ambitnych)
-
-Korzystając z metody równego podziału (bisekcji) znajdź przybliżone miejsce zerowe
-funkcji: `f(x) = x**3 + 2*x*2 - 4*x - 10` w przedziale [1:3].

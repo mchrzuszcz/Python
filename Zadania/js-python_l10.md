@@ -3,14 +3,7 @@
 
 ---
 
-Lista do samodzielnego wykonania w trakcie zajęć.
-
-Pod koniec zajęć każdy wysyła swoje rozwiązania na maila.
-
-Każde zadanie w osobnym pliku: nazwisko_imie_zad_[numer].py.
-
-Proszę zlitować się nad prowadzącymi i zadbać o to, żeby kod był czytelny
-i odpowiednio komentowany. Dłuższe programy proszę rozbijać na mniejsze funkcje.
+Dłuższe programy proszę rozbijać na mniejsze funkcje.
 Każda funkcja powinna być opisana *docstringiem*.
 
 ---
@@ -57,3 +50,5 @@ Program powinien:
 * dodać *text* na koniec pliku *file* (od nowej linii)
 * stworzyć *file*, jeśli nie istnieje
 * zwracać odpowiedni komunikat i przerywać pracę programu, gdy podana została zła liczba argumentów
+
+*Wsk. argparse*

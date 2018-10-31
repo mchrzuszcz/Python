@@ -1,15 +1,13 @@
+#!/usr/bin/env python
+
 import math
+import sys
 
 def pobierz_argumenty(*args):
     liczba_argumentow = len(args)
     if liczba_argumentow != 3:
         print "Zla liczba argumentow {}! Skrypt powinien przyjac dokladnie 3 argumenty.".format(liczba_argumentow)
         exit(1)
-
-#dlugosci_bokow = [3,4,5] # prostokatny
-#dlugosci_bokow = [2,4,4] # rownoramienny
-dlugosci_bokow = [4,4,4] # rownoboczny
-pobierz_argumenty(*dlugosci_bokow)
 
 def typ_rammiennosci_trojkata(*dlugosci_bokow):
     typ = ""
@@ -64,13 +62,28 @@ def pole_trojkata(*dlugosci_bokow):
     pole = math.sqrt(polowa_obwodu*(polowa_obwodu-dlugosci_bokow[0])*(polowa_obwodu-dlugosci_bokow[1])*(polowa_obwodu-dlugosci_bokow[2]))
     return pole
 
-typ_ramiennosci = typ_rammiennosci_trojkata(*dlugosci_bokow)
-typ_katnosci = typ_katnosci_trojkata(*dlugosci_bokow)
-ob_trojkata = obwod_trojkata(*dlugosci_bokow)
-po_trojkata = pole_trojkata(*dlugosci_bokow)
+def main():
 
-print "Typ ramiennosci trojkata: {}". format(typ_ramiennosci)
-print "Typ katnosci trojkata: {}".format(typ_katnosci)
-print "Obwod trojkata: {}".format(ob_trojkata)
-print "Pole trojkata: {}".format(po_trojkata)
+    #dlugosci_bokow = [3,4,5] # prostokatny
+    #dlugosci_bokow = [2,4,4] # rownoramienny
+    #dlugosci_bokow = [4,4,4] # rownoboczny
+    print sys.argv
+    dlugosci_bokow = map(int, sys.argv[1:])
+    print dlugosci_bokow
+
+    pobierz_argumenty(*dlugosci_bokow)
+
+    typ_ramiennosci = typ_rammiennosci_trojkata(*dlugosci_bokow)
+    typ_katnosci = typ_katnosci_trojkata(*dlugosci_bokow)
+    ob_trojkata = obwod_trojkata(*dlugosci_bokow)
+    po_trojkata = pole_trojkata(*dlugosci_bokow)
+
+    print "Typ ramiennosci trojkata: {}". format(typ_ramiennosci)
+    print "Typ katnosci trojkata: {}".format(typ_katnosci)
+    print "Obwod trojkata: {}".format(ob_trojkata)
+    print "Pole trojkata: {}".format(po_trojkata)
+
+if __name__ == '__main__':
+    main()
+
 

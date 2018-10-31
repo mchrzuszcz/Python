@@ -25,10 +25,10 @@ def hex2rgb(kod_hex):
 print("ord teraz")
 print(ord("1"))
 
+# Przyklad - Wyjasnienie funkcji map
 
 def myfunc(a):
     return len(a)
-
 
 x = map(myfunc, ('jablko', 'banan', 'wisnia'))
 

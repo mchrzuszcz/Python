@@ -47,12 +47,6 @@ Napisz program, który pobiera od użytkownika współczynniki trójmianu kwadra
 
 Zad 6.
 
-Napisz funkcję, która wymusza, aby trzy ostatnie argumenty były kluczowe.
-
----
-
-Zad 7.
-
 * Napisz funkcję, która przyjmuje dowolną liczbę argumentów pozycyjnych oraz kluczowych.
 * Niech funkcja drukuje argumenty pozycyjne w formie listy:
 ```
@@ -69,5 +63,3 @@ nazwa (klucz) -> wartość
 .
 .
 ```
-* Stwórz listę oraz słownik
-* Przekaż pojedyncze elementy listy jako kolejne argumenty pozycyjne, a słownik jako kolejne argumenty kluczowe swojej funkcji.

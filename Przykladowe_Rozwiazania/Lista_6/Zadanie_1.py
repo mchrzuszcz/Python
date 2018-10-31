@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Zadanie 1
 # a1 - pierwszy wyraz ciagu
 # q - iloraz
@@ -8,7 +10,6 @@ def pobierz_dane():
     q = input("Podaj iloraz ciagu: ")
     return a1, q
 
-
 def generuj_ciag_geometryczny(a1, q, n=100):
     ciag_geometryczny = []
     ciag_geometryczny.append(a1)
@@ -17,7 +18,6 @@ def generuj_ciag_geometryczny(a1, q, n=100):
         liczba = liczba * q
         ciag_geometryczny.append(liczba)
     return ciag_geometryczny
-
 
 def znajdz_liczby_parzyste(lista_liczb):
     lista_parzysta = []
@@ -30,5 +30,5 @@ a1, q = pobierz_dane()
 print a1,q
 ciag_geometryczny = generuj_ciag_geometryczny(a1,q,4)
 print ciag_geometryczny
-lista_patrzysta = znajdz_liczby_parzyste(ciag_geometryczny)
-print lista_patrzysta
+lista_parzysta = znajdz_liczby_parzyste(ciag_geometryczny)
+print lista_parzysta

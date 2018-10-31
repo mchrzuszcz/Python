@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 def collatz(c0,n):
     lista = []
     lista.append(c0)
@@ -9,10 +11,6 @@ def collatz(c0,n):
             cn = 3*cn +1
         lista.append(cn)
     return lista
-
-lista_collatza = collatz(6,9)
-for ele in lista_collatza:
-    print ele
 
 def collatz_pierwsza_1(c0,n):
     lista = []
@@ -27,6 +25,14 @@ def collatz_pierwsza_1(c0,n):
         if cn == 1:
             break
     return lista
+
+print("\nZadanie 3:\n")
+
+lista_collatza = collatz(6,9)
+for ele in lista_collatza:
+    print ele
+
+print("\nZadanie 4:\n")
 
 lista_collatza_pierwsza = collatz_pierwsza_1(6,10)
 

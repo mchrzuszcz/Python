@@ -1,22 +1,19 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 import sys
 
 # Zad 1
+print("\nZadanie 1\n")
 
 tupla = (0,1,2,3,4, "piec", "szesc", "siedem", "osiem", "dziewiec")
-print(tupla)
 print(tupla[:3])
 print(tupla[-2:])
 print(tupla[1::2])
 print(len(tupla))
 print(len(tupla[-1]))
 
-if (uzytkownik.click() == True):
-    modul_rozmowa_glosowa.wykonaj(uzytkownik_z_listy)
-
-
 # Zad 2
+print("\nZadanie 2\n")
 
 studenci = ["Kasia", "Basia", "Marek", "Darek"]
 print(studenci)
@@ -38,6 +35,8 @@ print(type(studenci))
 
 
 # Zad 3
+print("\nZadanie 3\n")
+
 lista = list(range(3,100,3))
 print(lista[1],lista[2],lista[-1])
 print(lista[5],lista[8])
@@ -47,6 +46,8 @@ print(sum(lista))
 print(sum(lista)/len(lista))
 
 # Zad 4
+print("\nZadanie 4\n")
+
 krotka = ("a","b","c","d")
 print(krotka)
 print("".join(krotka))
@@ -56,7 +57,7 @@ print("\t".join(str(([0]*100))))
 print("\t".join(str(0) for i in range(100)))
 
 # Zad 5
-
+print("\nZadanie 5\n")
 slubowanie = """
 Wstepujac do wspolnoty akademickiej Uniwersytetu Wroclawskiego, slubuje uroczyscie:
 - zdobywal wiedze i umiejetnosci,
@@ -79,7 +80,7 @@ print(len(slubowanie.splitlines()))
 
 
 # Zadanie 6
-
+print("\nZadanie 6\n")
 print(sys.getsizeof(0))
 print(sys.getsizeof(1))
 print(sys.getsizeof(2**100))
@@ -96,7 +97,7 @@ print(isinstance(True,int))
 print(isinstance(True,int))
 
 # Zadanie 7
-
+print("\nZadanie 7\n")
 x = 2
 y = x
 
@@ -111,7 +112,7 @@ y[1] = 3
 print(x, y, id(x), id(y))
 
 # Zadanie 8
-
+print("\nZadanie 8\n")
 x = (a, b, c) = (1, 2, 3)
 print(x)
 print(a)

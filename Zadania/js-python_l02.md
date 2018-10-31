@@ -5,7 +5,7 @@
 
 Zad 1.
 
-* Stwórz krotkę (*tuple*) zawierającą pięć cyfr: 0, 1, 2, 3, 4 oraz pięć literałów słownych: "pięć", "sześć", "siedem", "osiem", "dziewięć".
+* Stwórz krotkę (*tuple*) zawierającą pięć cyfr: 0, 1, 2, 3, 4 oraz pięć literałów słownych: "piec", "szesc", "siedem", "osiem", "dziewiec".
 
 * Wydrukuj na ekranie trzy pierwsze elementy.
 
@@ -110,7 +110,7 @@ wstępując do wspólnoty akademickiej Uniwersytetu Wrocławskiego, ślubuję ur
 * Korzystając z funkcji *str.split*:
 
     * stwórz listę wyrazów występujących w tekście (30 słów => 30 elementów)
-    * stwórz listę, której każdy element odpowiada jednej linijce tekstu (4 linie => 4 elementy)
+    * stwórz listę, której każdy element odpowiada jednej linijce tekstu
 
 ---
 

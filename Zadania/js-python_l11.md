@@ -3,13 +3,13 @@
 
 ---
 
-Lista dodatkowa dla tych, którzy nie mają zaległości z poprzednich list.
+Lista dodatkowa.
 
 ---
 
 * Zapoznaj się z pojęciem systemu kontroli wersji
 
-* Wybierz system kontroli wersji, który najbardziej Ci odpowiada - załóż konto i utwórz pierwsze repozytorium *zoo*
+* GitHub - załóż konto i utwórz pierwsze repozytorium *zoo*
 
 * Stwórz moduł z klasą *Animal*, która:
 
@@ -47,5 +47,7 @@ Lista dodatkowa dla tych, którzy nie mają zaległości z poprzednich list.
 * Rozbuduj *zoo* wg własnego uznania
 
 ---
+
+Dla super chętnych:
 
 * stwórz GUI do aplikacji *zoo*

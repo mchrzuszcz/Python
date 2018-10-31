@@ -1,10 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
+
 import random
+import turtle
 
-
-#Zadanie 2
-
-print("Zadanie 2")
+# Zadanie 1
+print("\nZadanie 1\n")
 
 squares = [x**2 for x in range(10)]
 
@@ -13,25 +13,25 @@ print(squares)
 for i, item in enumerate(squares):
     print("{0} -> {1}".format(i,item))
 
-
-
-# zadanie 3
-print("Zadanie 3")
-print("drukujemy wszystkie liczby parzyste mniejsze od 10")
+# Zadanie 2
+print("\nZadanie 2\n")
+print("Drukujemy wszystkie liczby parzyste mniejsze od 10")
 i = 0
 while i < 10:
-#    if not ((i % 2) != 0):    # reszta z dzielenia != 0 -> True
-#        print(i) # drukuj liczby parzyste
-
+    # 1 rozwiazanie
+    #if not ((i % 2) != 0):    # reszta z dzielenia != 0 -> True
+        #print(i) # drukuj liczby parzyste
+    # 2 rozwiazanie
     if i % 2 ==0:
         print(i)
-    i += 1 # zwiÄ™ksz i o jeden
+    # Ponizsza linia dla kazdego rozwiazania
+    i += 1 # zwieksz i o jeden
 
-
-print("Zadanie 4")
+# Zadanie 3
+print("\nZadanie 3\n")
 # lista zakupow
 grocery = ['jajka', 'mleko', 'chleb', 'maslo', 'piwo']
-# ilosc sztuk  - MALA MODYFIKACJA TUTAJ ZAMIAST LISTY DALEM SLOWNIK
+# ilosc sztuk
 n_items = {}
 # zakazane produkty
 prohibited = ['wodka', 'piwo', 'wino']
@@ -57,11 +57,11 @@ for i, (key, value) in enumerate(n_items.items()):
     print("{0}. {1}: {2}".format(i, key, value))
 
 
-print("Zadanie 5")
-#randomowa_liczba = random.randint(0,100)
-randomowa_liczba = 90
-status = True
+print("Zadanie 4")
+print("\nZadanie 4\n")
+randomowa_liczba = random.randint(0,100)
 print(randomowa_liczba)
+status = True
 while status == False:
     liczba_usera = int(input("Zagdnij liczbe w przedziale od 0 do 100: "))
     roznica = abs(randomowa_liczba-liczba_usera)
@@ -82,3 +82,30 @@ while status == False:
             print("Wieksza")
         else:
             print("Troche wieksza")
+
+print("Zadanie 5")
+print("\nZadanie 5\n")
+length = input("Podaj dlugosc boku: ")
+# 5.1
+n_sides = 3
+
+# 5.2
+#n_sides = 6
+
+# 5.3
+#n_sides = input("Podaj liczbe bokow: ")
+
+turtle.speed(20)
+
+for i in range(n_sides):
+    # 5.1
+    turtle.forward(length)
+    turtle.right(120)
+    # 5.2
+    #turtle.forward(length)
+    #turtle.right(60)
+    # 5.3
+    #turtle.forward(length)
+    #turtle.right(360/n_sides)
+
+turtle.mainloop()

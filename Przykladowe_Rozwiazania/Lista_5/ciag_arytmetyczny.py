@@ -1,6 +1,4 @@
 def nty_wyraz(a1,r,n):
-    # dodac try except
-    # konwersje int
     an = a1 + (n-1)*r
     return an
 

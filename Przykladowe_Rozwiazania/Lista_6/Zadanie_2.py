@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+
+
 # Zadanie 2
 def pobierz_dane():
     liczba_pierwsza_status = False
@@ -9,7 +12,6 @@ def pobierz_dane():
         else:
             print "Podana liczba nie jest liczba naturalna! Podaj liczbe naturalna!"
     return int(liczba_pierwsza)
-
 
 def sprawdz_czy_liczba_pierwsza(liczba):
     liczba_pierwsza_status = True
