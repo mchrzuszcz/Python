@@ -1,3 +1,3 @@
-# PythonListyTG
+# Python
 
 Listy Python - poziom Uniwersytecki
