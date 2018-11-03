@@ -1,3 +1,3 @@
 # Python
 
-Listy Python - poziom Uniwersytecki
+Listy Python - Daniel Stach
