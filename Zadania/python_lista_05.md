@@ -1,44 +1,43 @@
 # Języki skryptowe - Python
-# Lista 8
+# Lista 5
+
+---
+
+*Uwaga: każdy moduł / każda funkcja powinna być udokumentowana docstringami*
 
 ---
 
 Zad 1.
 
-Napisz skrypt, który tworzy listę (wykorzystaj *list comprehension*) zawierającą *n* pierwszych wyrazów ciągu: *an = n/(n + 1)*, gdzie *n* jest parametrem podanym z linii komend.
+Stwórz moduł `ciag_arytmetyczny.py` zawierający funkcje, które dla podanych *a1* (pierwszy wyraz ciągu), *r* (różnica) oraz *n* zwracają:
 
-Następnie w pętli zapisuje wszystkie wyrazy ciągu do pliku.
+- *n*-ty wyraz ciągu
+- sumę pierwszych *n* wyrazów ciągu
 
 ---
 
 Zad 2.
 
-Napisz drugą wersję skryptu z pierwszego zadania, który wykorzystuje *generator expression* zamiast *list comprehension*.
+Napisz skrypt, który zaimportuje moduł z pierwszego zadania. Następnie:
+
+- spyta użytkownika o *a1*, *r* i *n*
+- wydrukuje na ekranie *n*-ty wyraz ciągu
+- wydrukuje na ekranie sumę pierwszych *n* wyrazów ciągu
 
 ---
 
 Zad 3.
 
-Wykorzystując */usr/bin/time* (nie mylić z wbudowaną funkcją *time*) porównaj zużycie procesora oraz pamięci przez skrypty z pierwszych zadań dla różnych wartości *n*. Wyjaśnij otrzymane wyniki.
-
-Zastąp zapisywanie do pliku pustą pętlą (`for _ in lista/generator: pass`) i sprawdź, jak to wpływa na pomiar czasu.
+Napisz funkcję, która dla podanego *n* i *c0* wyznacza *n*-ty wyraz ciągu Collatza.
 
 ---
 
 Zad 4.
 
-Plik [studenci_python.txt](src/studenci_python.txt) zawiera listę studentów uczęszczających na wykład z Pythona.
-
-Plik [studenci_cpp.txt](src/studenci_cpp.txt) zawiera listę studentów uczęszczających na wykład z C++.
-
-Napisz skrypt, który wydrukuję listę studentów uczęszczających na oba wykłady.
-
-*Wsk: set lub set.intersection cmp()*
+Napisz funkcję, która dla podanego *n* i *c0* wyznacza pierwsze wystąpienie liczby 1 w ciągu Collatza.
 
 ---
 
-Zadanie dla chętnych
+Zad 5.
 
-Napisz skrypt, który dla zadanego *n* generuje *n* pierwszych wyrazów ciągu "look-and-say".
-
-*Wsk: [itertools.groupby](https://docs.python.org/3.6/library/itertools.html#itertools.groupby)*
+Stwórz moduł do konwersji między kolorami opisanymi w RGB i HEX. Następnie napisz skrypt, który demonstruje jego działanie. 

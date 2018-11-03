@@ -1,58 +1,65 @@
 # Języki skryptowe - Python
-# Lista 7
+# Lista 4
 
 ---
 
 Zad 1.
 
-Stwórz moduł, który zawiera niżej wymienione funkcje:
+Stwórz słownik, który przyporządkuje pięciu różnym produktom ich cenę. Następnie:
 
-* konwersja Celsjusz -> Fahrenheit
-* konwersja Fahrenheit -> Celsjusz
-* generowanie losowych temperatur w Celsjuszach
+* w pętli wydrukuj na ekranie listę produktów z ceną
+* policz średnią cenę produktu
+* dodaj nowy produkt
+* jak się zmieniła średnia cena?
+* napisz funkcję, która liczy średnią cenę
+* usuń produkt
+* policz średnią cenę
 
 ---
 
 Zad 2.
 
-Napisz skrypt, który wykorzystuje moduł z pierwszego zadania, aby utworzyć plik `celsjusz.txt`, w którym zapisze *n* losowo wygenerowanych temperatur.
-
-*Uwaga: niech n będzie pobierane z linii komend; program powinien stosownie reagować, gdy podany przez użytkownika argument nie jest liczbą całkowitą;*
+Napisz funkcję, która znajduje mniejszą liczbę z dwóch podanych.
 
 ---
 
 Zad 3.
 
-Napisz skrypt, który wykorzystuje moduł z pierwszego zadania. Nastepnie wczytać plik `celsjusz.txt`, po czym utworzyć odpowiadający mu plik `fahrenheit.txt`, w którym zapisze przekonwertowane temperatury.
+Napisz funkcję, która z podanych liczb (ilość dowolna) znajduje najmniejszą.
+
+*Uwaga: Możesz wykorzystać funkcję z zadania 2.*
 
 ---
 
 Zad 4.
 
-Napisz skrypt, który wykorzystuje moduł z pierwszego zadania, aby sprawdzić, czy pliki `celsjusz.txt` i `fahrenheit.txt` zawierają rzeczywiście te same temperatury, ale w innych skalach.
+Napisz funkcję, która wypisze na ekranie *n* pierwszych wyrazów ciągu Fibonacciego.
 
 ---
 
 Zad 5.
 
-Napisz program `read.py`, który przyjmuje argumenty z linii komend:
+Napisz program, który pobiera od użytkownika współczynniki trójmianu kwadratowego, a następnie podaje jego rozwiązania.
 
+*Uwaga: Rozłóż program na mniejsze funkcje.*
+
+---
+
+Zad 6.
+
+* Napisz funkcję, która przyjmuje dowolną liczbę argumentów pozycyjnych oraz kluczowych.
+* Niech funkcja drukuje argumenty pozycyjne w formie listy:
 ```
-read.py file [mode]
+1 -> wartość pierwszego argumentu
+2 -> wartość drugiego argumentu
+.
+.
+.
 ```
-
-gdzie `file` jest argumentem obowiązkowym, a `[mode]` opcjonalnym.
-
-Program powinien drukować na ekranie podany plik w zadanym trybie:
-
-* mode=0 (domyślnie) - drukuje cały plik
-* mode=1 - pomija linie zaczynające się od # (komentarze)
-* mode=2 - numeruje linie, czyli
-
+* Niech funkcja drukuje argumenty kluczowe w formie listy:
 ```
-1. pierwsza linia z pliku
-2. druga linia z pliku
-...
+nazwa (klucz) -> wartość
+.
+.
+.
 ```
-
-*Uwaga: program powinien zwracać stosowny komunikat, gdy argument obowiązkowy nie zostanie podany*

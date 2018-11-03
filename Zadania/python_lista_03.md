@@ -1,48 +1,116 @@
 # Języki skryptowe - Python
-# Lista 6
+# Lista 3
 
 ---
 
-Każda funkcja powinna być opisana *docstringiem*.
+Zad 1
 
----
+Wykorzystaj listę składaną (*list comprehension*), aby stworzyć sekwencję kwadratów liczb naturalnych mniejszych od 100. Następnie (korzystając z *enumerate*) wydrukuj na ekranie:
 
-Zad 1.
-
-Napisz skrypt, który wygeneruje listę zawierającą 100 pierwszych wyrazów
-ciągu geometrycznego (dla zadanych *a1* i *q* - pierwszy wyraz ciągu i iloraz).
-
-Następnie wydrukuje na ekranie ten ciąg oraz jego podciąg zawierający tylko
-parzyste wyrazy.
+```
+1 -> 1
+2 -> 4
+3 -> 9
+.
+.
+.
+```
 
 ---
 
 Zad 2.
 
-Napisz funkcję, która sprawdza, czy podana liczba jest liczbą pierwszą. Funkcja
-powinna zwracać *True* lub *False*.
+Przeanalizuj poniższy kod:
 
-Napisz skrypt, który sprawdzi, czy podana przez użytkownika liczba jest liczbą pierwszą.
 
-*Uwaga: program powinien pytać do skutku, aż użytkownik poda liczbę naturalną. Wsk.* `str.isdigit()`
+```py
+#!/usr/bin/env python
+
+i = 0
+
+# drukujemy wszystkie liczby parzyste mniejsze od 10
+while i < 10:
+    if i % 2:    # reszta z dzielenia != 0 -> True
+        continue # pomiń liczby nieparzyste
+    else:
+        print(i) # drukuj liczby parzyste
+
+    i += 1 # zwiększ i o jeden
+```
+
+* Czy skrypt będzie działał zgodnie z założeniami? Jeśli nie, to napraw go.
 
 ---
 
 Zad 3.
 
-Napisz skrypt, który wymaga trzech argumentów z linii komend (wsk. `sys.argv`), czyli
+Uzupełnij skrypt o brakujące fragmenty:
 
+
+```py
+
+#!/usr/bin/env python
+
+# lista zakupów
+grocery = ['jajka', 'mleko', 'chleb', 'maslo', 'piwo']
+# ilość sztuk
+n_items = {}
+# zakazane produkty
+prohibited = ['wódka', 'piwo', 'wino']
+
+# w pętli pytamy użytkownika, ile sztuk danego produktu chce kupić
+for product in grocery:
+    # wydrukuj na ekranie komunikat: "Produkt [nazwa produktu]: sztuk = "
+    # pobierz liczbę od użytkownika i zapisz w n_items dla danego produktu
+    # pomiń produkty zakazane (i automatycznie przyjmij ilość = 0)
+
+# w pętli wydrukuj: [lp]. [nazwa produktu]: [ilość]
+# czyli np.: 1. jajka: 5 itd.
 ```
-python moj_skrypt.py arg1 arg2 arg3
+
+---
+
+Zad 4.
+
+Napisz skrypt, który:
+
+- losuje liczbę całkowitą mniejszą od 100 (`help(random.randint)`)
+- pyta użytkownika o odgadnięcie liczby
+- informuje użytkownika, czy podana przez niego liczba jest:
+    - dużo mniejsza (różnica > 50)
+    - mniejsza (różnica > 10)
+    - trochę mniejsza
+    - trochę większa
+    - większa (różnica > 10)
+    - dużo większa (różnica > 50)
+- program się kończy, gdy użytkownik odgadnie wylosowaną liczbę
+
+
+---
+
+Zad 5.
+
+Poniższy skrypt narysuje kwadrat:
+
+```py
+#!/usr/bin/env python
+
+import turtle
+
+length = eval(input("Podaj dł\lugosc boku: "))
+n_sides = 4 # ilosc boków
+
+turtle.speed(20) # ustal predkosc zolwia
+
+# powtorz n_sides razy
+for i in range(n_sides):
+    turtle.forward(length) # narysuj linie o danej dlugosci
+    turtle.right(90)       # obroc sie w prawo o dany kat
+
+turtle.mainloop() # nie zamykaj okna po narysowaniu
 ```
 
-które są długościami boków trójkąta (można założyć, że podane argumenty są liczbami). Na tej podstawie skrypt powinien wydrukować na ekranie następujące informacje:
-
-* obwód trójkąta
-* pole trójkąta
-* informację czy trójkąt jest równoboczny, równoramienny czy różnoboczny
-* informację czy trójkąt jest prostokątny, ostrokątny czy rozwartokątny
-
-W przypadku złej liczby argumentów program powinien wyświetlić odpowiedni komunikat i zakończyć działanie.
-
+5.1 zmodyfikuj go tak, aby narysował trójkąt równoboczny
+5.2 zmodyfikuj go tak, aby narysował sześciokąt foremny
+5.3 zmodyfikuj go tak, aby narysował wielokąt foremny, którego liczba boków podana jest przez użytkownika
 

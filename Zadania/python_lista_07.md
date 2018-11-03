@@ -1,54 +1,58 @@
 # Języki skryptowe - Python
-# Lista 10
-
----
-
-Dłuższe programy proszę rozbijać na mniejsze funkcje.
-Każda funkcja powinna być opisana *docstringiem*.
+# Lista 7
 
 ---
 
 Zad 1.
 
-Niech `poczatek` i `koniec` będą całkowitymi zmiennymi globalnymi. Napisz pętlę `for`, która drukuje na ekranie liczby całkowite ze zbioru `[poczatek, koniec]`.
+Stwórz moduł, który zawiera niżej wymienione funkcje:
+
+* konwersja Celsjusz -> Fahrenheit
+* konwersja Fahrenheit -> Celsjusz
+* generowanie losowych temperatur w Celsjuszach
 
 ---
 
 Zad 2.
 
-Niech `poczatek` i `koniec` będą całkowitymi zmiennymi globalnymi. Napisz pętlę `while`, która drukuje na ekranie liczby całkowite ze zbioru `[poczatek, koniec]`.
+Napisz skrypt, który wykorzystuje moduł z pierwszego zadania, aby utworzyć plik `celsjusz.txt`, w którym zapisze *n* losowo wygenerowanych temperatur.
+
+*Uwaga: niech n będzie pobierane z linii komend; program powinien stosownie reagować, gdy podany przez użytkownika argument nie jest liczbą całkowitą;*
 
 ---
 
 Zad 3.
 
-Napisz funkcję, która liczy objętość prostopadłościanu. Funkcja powinna przyjmować trzy argumenty, które są długościami krawędzi. Wywołana z jednym argumentem powinna się domyślić, że chodzi o sześcian, czyli:
-
-```
-funkcja(a)       # zwraca objętość sześcianu
-funkcja(a, b, c) # zwraca objętość prostopadłościanu
-```
+Napisz skrypt, który wykorzystuje moduł z pierwszego zadania. Nastepnie wczytać plik `celsjusz.txt`, po czym utworzyć odpowiadający mu plik `fahrenheit.txt`, w którym zapisze przekonwertowane temperatury.
 
 ---
 
 Zad 4.
 
-Napisz skrypt, który pobiera od użytkownika dowolny tekst, a następnie drukuje na ekranie liczbę występujących w nim samogłosek.
+Napisz skrypt, który wykorzystuje moduł z pierwszego zadania, aby sprawdzić, czy pliki `celsjusz.txt` i `fahrenheit.txt` zawierają rzeczywiście te same temperatury, ale w innych skalach.
 
 ---
 
 Zad 5.
 
-Napisz skrypt, który wymaga dwóch argumentów z linii komend:
+Napisz program `read.py`, który przyjmuje argumenty z linii komend:
 
 ```
-python append.py file text
+read.py file [mode]
 ```
 
-Program powinien:
+gdzie `file` jest argumentem obowiązkowym, a `[mode]` opcjonalnym.
 
-* dodać *text* na koniec pliku *file* (od nowej linii)
-* stworzyć *file*, jeśli nie istnieje
-* zwracać odpowiedni komunikat i przerywać pracę programu, gdy podana została zła liczba argumentów
+Program powinien drukować na ekranie podany plik w zadanym trybie:
 
-*Wsk. argparse*
+* mode=0 (domyślnie) - drukuje cały plik
+* mode=1 - pomija linie zaczynające się od # (komentarze)
+* mode=2 - numeruje linie, czyli
+
+```
+1. pierwsza linia z pliku
+2. druga linia z pliku
+...
+```
+
+*Uwaga: program powinien zwracać stosowny komunikat, gdy argument obowiązkowy nie zostanie podany*

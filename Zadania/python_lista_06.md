@@ -1,54 +1,48 @@
 # Języki skryptowe - Python
-# Lista 9
+# Lista 6
+
+---
+
+Każda funkcja powinna być opisana *docstringiem*.
 
 ---
 
 Zad 1.
 
-Stwórz klasę `Samochod`, która:
+Napisz skrypt, który wygeneruje listę zawierającą 100 pierwszych wyrazów
+ciągu geometrycznego (dla zadanych *a1* i *q* - pierwszy wyraz ciągu i iloraz).
 
-* posiada dane:
-
-    * maksymalna prędkość
-    * spalanie
-    * obecna prędkość (0 na starcie)
-    * pokonany dystans (0 na starcie)
-    * czas podróży (0 na starcie)
-    
-* posiada metody:
-
-    * `przyspiesz`, która zwiększa prędkość o podaną wartość (aż do osiągnięcia prędkości maksymalnej)
-    * `zwolnij`, która zmniejsza prędkość o podaną wartość (aż do 0)
-    * `hamuj`, która zatrzymuje samochód
-    * `turbo`, która przyspiesza samochód do maksymalnej prędkości
-    * `jedz`, która zmienia pokonany dystans o podaną wartość oraz aktualizuje czas podróży
-    * `podroz`, która podsumowuje podróż, drukując na ekranie: całkowity pokonany dystans, czas podróży, średnią prędkość, ilość spalonej benzyny
-    
-Stwórz obiekt klasy `Samochód` i przetestuj działanie, np.:
-
-
-```
-samochod = Samochod(200, 10) 
-
-samochod.przyspiesz(100) # samochód jedzie 100km/h
-
-samochod.jedz(100) # dystans = 100km, czas = 1h
-
-samochod.turbo() # prędkość = 200km/h
-
-samochod.jedz(100) # dystans = 100 + 100km, czas = 1 + 0.5h
-
-samochod.podroz()
-
-*Samochód przejechał ..., ze średnią prędkością ..., co zajęło ... i spaliło ... benzyny.*
-```
+Następnie wydrukuje na ekranie ten ciąg oraz jego podciąg zawierający tylko
+parzyste wyrazy.
 
 ---
 
 Zad 2.
 
-Zaskocz prowadzącego i stwórz swoją własną klasę, która robi coś ciekawego.
+Napisz funkcję, która sprawdza, czy podana liczba jest liczbą pierwszą. Funkcja
+powinna zwracać *True* lub *False*.
 
-i / lub
+Napisz skrypt, który sprawdzi, czy podana przez użytkownika liczba jest liczbą pierwszą.
 
-Zmodyfikuj klasę z pierwszego zadania, aby zapamiętywane były informacje o kolejnych odcinkach (wywoływanych funkcją `jedz`). Dodaj funkcje, które umożliwią rysowanie wykresu zależności drogi od czasu oraz prędkości od czasu. *Wsk. matlibplot*
+*Uwaga: program powinien pytać do skutku, aż użytkownik poda liczbę naturalną. Wsk.* `str.isdigit()`
+
+---
+
+Zad 3.
+
+Napisz skrypt, który wymaga trzech argumentów z linii komend (wsk. `sys.argv`), czyli
+
+```
+python moj_skrypt.py arg1 arg2 arg3
+```
+
+które są długościami boków trójkąta (można założyć, że podane argumenty są liczbami). Na tej podstawie skrypt powinien wydrukować na ekranie następujące informacje:
+
+* obwód trójkąta
+* pole trójkąta
+* informację czy trójkąt jest równoboczny, równoramienny czy różnoboczny
+* informację czy trójkąt jest prostokątny, ostrokątny czy rozwartokątny
+
+W przypadku złej liczby argumentów program powinien wyświetlić odpowiedni komunikat i zakończyć działanie.
+
+
