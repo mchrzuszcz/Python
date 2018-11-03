@@ -18,7 +18,7 @@ def wylicz_miejsca_zerowe(delta,a,b):
         x2 = float(-b + math.sqrt(delta)) / float(2 * a)
         print "Rownanie kwadratowe posiada dwa rozwiazanie: x1 {}, x2 {}.".format(x1,x2)
     elif delta == 0:
-        x0 = -b / 2*a
+        x0 = float(-b) / float(2*a)
         print "Rownanie kwadratowe posiada jedno rozwiazanie: x0 {}".format(x0)
     else:
         print "Rownanie kwadratowe nie posiada rozwiazan w zbiorze liczb rzeczywistych dla delta < 0."
