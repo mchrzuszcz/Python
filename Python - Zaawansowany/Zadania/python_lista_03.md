@@ -110,7 +110,7 @@ for i in range(n_sides):
 turtle.mainloop() # nie zamykaj okna po narysowaniu
 ```
 
-5.1 zmodyfikuj go tak, aby narysował trójkąt równoboczny
-5.2 zmodyfikuj go tak, aby narysował sześciokąt foremny
+5.1 zmodyfikuj go tak, aby narysował trójkąt równoboczny  
+5.2 zmodyfikuj go tak, aby narysował sześciokąt foremny  
 5.3 zmodyfikuj go tak, aby narysował wielokąt foremny, którego liczba boków podana jest przez użytkownika
 
