@@ -22,7 +22,7 @@ while i < 10:
     #if not ((i % 2) != 0):    # reszta z dzielenia != 0 -> True
         #print(i) # drukuj liczby parzyste
     # 2 rozwiazanie
-    if i % 2 ==0:
+    if i % 2 == 0:
         print(i)
     # Ponizsza linia dla kazdego rozwiazania
     i += 1 # zwieksz i o jeden
