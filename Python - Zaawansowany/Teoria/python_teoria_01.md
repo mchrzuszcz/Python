@@ -1,8 +1,8 @@
 
 # Python
-## Teoria do listy 1
+## Teoria 1
 
-## Program
+## Program kursu
 
 ---
 
@@ -906,7 +906,7 @@ print(tekst)
     różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do
     realizacji druków na komputerach osobistych, jak Aldus PageMaker
     
-
+## Przykładowy program
 
 ```python
 import turtle # biblioteka do rysowania

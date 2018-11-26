@@ -1,6 +1,6 @@
 
 # Python
-## Teoria do listy 2
+## Teoria 2
 
 ---
 

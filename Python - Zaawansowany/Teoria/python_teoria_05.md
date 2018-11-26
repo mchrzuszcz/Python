@@ -1,7 +1,7 @@
 
 
 # Python
-## Teoria do listy 5
+## Teoria 5
 
 ---
 

@@ -1,6 +1,6 @@
 
 # Pyton
-## Teoria do listy 3
+## Teoria 3
 
 ---
 
