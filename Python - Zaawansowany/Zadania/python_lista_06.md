@@ -38,6 +38,7 @@ python moj_skrypt.py arg1 arg2 arg3
 
 które są długościami boków trójkąta (można założyć, że podane argumenty są liczbami). Na tej podstawie skrypt powinien wydrukować na ekranie następujące informacje:
 
+* czy z podanych liczb da się zbudować trójkąt (jeśli nie to wypisz stosowny komunikat i przerwij działanie programu)
 * obwód trójkąta
 * pole trójkąta
 * informację czy trójkąt jest równoboczny, równoramienny czy różnoboczny
