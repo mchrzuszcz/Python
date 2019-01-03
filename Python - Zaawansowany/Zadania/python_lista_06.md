@@ -43,6 +43,7 @@ które są długościami boków trójkąta (można założyć, że podane argume
 * pole trójkąta
 * informację czy trójkąt jest równoboczny, równoramienny czy różnoboczny
 * informację czy trójkąt jest prostokątny, ostrokątny czy rozwartokątny
+* [ Dla chętnych ] - napisz funkcje, która wyrysuje zadany trójkąt używając biblioteki turtle (Wsk. Twierdzenie Cosinusów)
 
 W przypadku złej liczby argumentów program powinien wyświetlić odpowiedni komunikat i zakończyć działanie.
 
