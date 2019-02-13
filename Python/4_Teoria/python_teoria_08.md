@@ -194,7 +194,7 @@ def loop(i = 0):
 
 * sprawdzenie kodu przez inną osobę - poniższy link przedstawia typową sytuację w pracy, zrozumiecie jak zobaczycie na własne oczy ;)
 
-![](../Materialy_Pomocnicze/code_review.jpg)
+![](../5_Materialy_Pomocnicze/code_review.jpg)
 
 ## Debugowanie
 

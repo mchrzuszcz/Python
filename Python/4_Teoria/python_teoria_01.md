@@ -31,7 +31,7 @@
 ---
 
 * A. B. Downey, J. Elkner, C. Meyers, “Think Python. How to Think Like a Computer Scientist”: http://www.greenteapress.com/thinkpython/
-* M. Pilgrim, “Dive into Python”: http://www.diveintopython.net/ -> [Zanurkuj_w_Pythonie.pdf](../Materialy_Pomocnicze/Zanurkuj_w_Pythonie.pdf)
+* M. Pilgrim, “Dive into Python”: http://www.diveintopython.net/ -> [Zanurkuj_w_Pythonie.pdf](../5_Materialy_Pomocnicze/Zanurkuj_w_Pythonie.pdf)
 * Swaroop CH "A Byte of Python": https://python.swaroopch.com/ (tłumaczenie: http://python.edu.pl/byteofpython/)
 
 ## Język kompilowany

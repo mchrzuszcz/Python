@@ -27,9 +27,9 @@ Wykorzystując *sys.getsizeof* porównaj zużycie pamięci przez wygenerowane ci
 
 Zad 4.
 
-Plik [studenci_python.txt](../Materialy_Pomocnicze/studenci_python.txt) zawiera listę studentów uczęszczających na wykład z Pythona.
+Plik [studenci_python.txt](../5_Materialy_Pomocnicze/studenci_python.txt) zawiera listę studentów uczęszczających na wykład z Pythona.
 
-Plik [studenci_cpp.txt](../Materialy_Pomocnicze/studenci_cpp.txt) zawiera listę studentów uczęszczających na wykład z C++.
+Plik [studenci_cpp.txt](../5_Materialy_Pomocnicze/studenci_cpp.txt) zawiera listę studentów uczęszczających na wykład z C++.
 
 Napisz skrypt, który wydrukuję listę studentów uczęszczających na oba wykłady.
 
