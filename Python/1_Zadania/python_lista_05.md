@@ -33,7 +33,7 @@ Zad 3.
 
 Napisz funkcję, która dla podanego *n* i *c0* wyznacza *n*-ty wyraz ciągu Collatza.
 
-Definicja problemu Collatza:  [Problem Collatza](../Materialy_Pomocniczne/Problem_Collatza.pdf)
+Definicja problemu Collatza:  [Problem Collatza](../5_Materialy_Pomocnicze/Problem_Collatza.pdf)
 
 ---
 
