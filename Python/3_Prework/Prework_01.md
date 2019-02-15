@@ -8,7 +8,7 @@
 
 ---
 
-Tryb interaktywny interpretera Pythona jest podstawowym narzędziem nauki i testowania kodu. Jest bardzo podobno do powłoki bash czy powershell. Po prostu wpisujemy komendy w języku Python po czym interpreter je przetwarza i wyrzuca nam wynik podanej komendy. Ot takie proste! 
+Tryb interaktywny interpretera Pythona jest podstawowym narzędziem nauki i testowania kodu. Jest bardzo podobny do powłoki bash czy powershell. Po prostu wpisujemy komendy w języku Python po czym interpreter je przetwarza i wyrzuca nam wynik podanej komendy. Ot takie proste! 
 
 Co ciekawe, po uruchomieniu interpreter wyświetli swoją wersję, opcjonalnie wersję kompilatora C++ (język w którym został napisany Python), informację o sposobie uzyskania pomocy (polecenie help), na końcu zaś znak zachęty >>> lub In[1]. Jeżeli będziemy testować instrukcje złożone, np. warunkowe lub pętle, w interpreterze zobaczymy znaki ... oznaczające, że wprowadzany kod wymaga wcięć.
 
