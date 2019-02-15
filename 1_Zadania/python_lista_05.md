@@ -43,6 +43,16 @@ Napisz funkcję, która dla podanego *n* i *c0* wyznacza pierwsze wystąpienie l
 
 ---
 
-Zad 5.
+Zad 5 - Zadanie domowe.
 
-Stwórz moduł do konwersji między kolorami opisanymi w RGB i HEX. Następnie napisz skrypt, który demonstruje jego działanie. 
+Przeanalizuj rozwiązanie zadania 5 w [Przykładowych Rowzwiązaniach](../2_Przykladowe_Rozwiazania/Lista_05/zadanie_5.py), które dokonuje konwersji między kolorami opisanymi w RGB i HEX.  
+
+Wyciągnij wnioski i przedstaw je na kolejnych zajęciach.
+
+---
+
+Zad 6 - Pierwszy Projekt
+
+Zapoznaj się z opisem projektu [Gra - Krowy i Byki](../6_Projekty/Projekt_0.md), który będzie Twoim pierwszym samodzielnym projektem.
+
+Do dzieła!
