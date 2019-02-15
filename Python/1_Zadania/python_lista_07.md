@@ -1,6 +1,8 @@
 # Języki skryptowe - Python
 # Lista 7
 
+Wzory do konwersji: [Celcius to Fahrenheit - RapidTables](https://www.rapidtables.com/convert/temperature/how-celsius-to-fahrenheit.html)
+
 ---
 
 Zad 1.
@@ -29,7 +31,7 @@ Napisz skrypt, który wykorzystuje moduł z pierwszego zadania. Nastepnie wczyta
 
 Zad 4.
 
-Napisz skrypt, który wykorzystuje moduł z pierwszego zadania, aby sprawdzić, czy pliki `celsjusz.txt` i `fahrenheit.txt` zawierają rzeczywiście te same temperatury, ale w innych skalach.
+Napisz skrypt, który wykorzystuje moduł z pierwszego zadania, aby sprawdzić, czy pliki `celsjusz.txt` i `fahrenheit.txt` zawierają rzeczywiście te same temperatury, ale w innych skalach np. w Kelvinach.
 
 ---
 
