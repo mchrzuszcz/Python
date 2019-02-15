@@ -61,4 +61,4 @@ Program powinien drukować na ekranie podany plik w zadanym trybie:
 
 <b>Wskazówka: </b> Wykorzystaj biblioteke argparse.
    
-*<b>Uwaga</b>: program powinien zwracać stosowny komunikat i zakończyć prace, gdy argument obowiązkowy nie zostanie podany*
+<b>Uwaga</b>: program powinien zwracać stosowny komunikat i zakończyć prace, gdy argument obowiązkowy nie zostanie podany.

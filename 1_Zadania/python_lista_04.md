@@ -27,7 +27,7 @@ Zad 3.
 
 Napisz funkcję, która z podanych liczb (ilość dowolna) znajduje najmniejszą.
 
-*Uwaga: Możesz wykorzystać funkcję z zadania 2.*
+**Uwaga:** Możesz wykorzystać funkcję z zadania 2.
 
 ---
 
@@ -35,13 +35,17 @@ Zad 4.
 
 Napisz funkcję, która wypisze na ekranie *n* pierwszych wyrazów ciągu Fibonacciego.
 
+**Definicja ciągu Fibonacciego:** [Ciąg Fibonacciego](../5_Materialy_Pomocnicze/ciag_fibonacciego.md)
+
 ---
 
 Zad 5.
 
 Napisz program, który pobiera od użytkownika współczynniki trójmianu kwadratowego, a następnie podaje jego rozwiązania.
 
-*Uwaga: Rozłóż program na mniejsze funkcje.*
+**Uwaga:** Rozłóż program na mniejsze funkcje.
+
+**Definicja trójmianu kwadratowego:** [Trójmian Kwadratowy](../5_Materialy_Pomocnicze/trojmian_kwadratowy.md)
 
 ---
 
