@@ -14,6 +14,9 @@ Stwórz moduł `ciag_arytmetyczny.py` zawierający funkcje, które dla podanych 
 - *n*-ty wyraz ciągu
 - sumę pierwszych *n* wyrazów ciągu
 
+<b>Wzór na ciąg arytmetyczny:</b>  `an = a1 + (n - 1) * r`  
+<b>Przykład:</b> `1,3,5,7,9 gdzie a1 = 1, r = 2, n = [1,5]`
+
 ---
 
 Zad 2.
@@ -29,6 +32,8 @@ Napisz skrypt, który zaimportuje moduł z pierwszego zadania. Następnie:
 Zad 3.
 
 Napisz funkcję, która dla podanego *n* i *c0* wyznacza *n*-ty wyraz ciągu Collatza.
+
+Definicja problemu Collatza:  [Problem Collatza](../Materialy_Pomocniczne/Problem_Collatza.pdf)
 
 ---
 
