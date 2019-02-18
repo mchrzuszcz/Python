@@ -45,7 +45,7 @@ Napisz funkcję, która dla podanego *n* i *c0* wyznacza pierwsze wystąpienie l
 
 Zad 5 - Zadanie domowe.
 
-Przeanalizuj rozwiązanie zadania 5 w [Przykładowych Rowzwiązaniach](../2_Przykladowe_Rozwiazania/Lista_05/zadanie_5.py), które dokonuje konwersji między kolorami opisanymi w RGB i HEX.  
+Przeanalizuj rozwiązanie zadania 5 w [Przykładowych Rozwiązaniach](../2_Przykladowe_Rozwiazania/Lista_05/zadanie_5.py), które dokonuje konwersji między kolorami opisanymi w RGB i HEX.  
 
 Wyciągnij wnioski i przedstaw je na kolejnych zajęciach.
 
