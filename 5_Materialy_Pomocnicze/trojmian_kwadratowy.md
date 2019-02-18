@@ -11,8 +11,8 @@ W zależności od wyróżnika Δ:
 
 Dla Δ > 0 otrzymamy dwa rozwiązania:   
 
-**x1** = (−b−Δ√) / 2a,   
-**x2** = (−b+Δ√) / 2a  
+**x1** = (−b − √Δ) / 2a,   
+**x2** = (−b + √Δ) / 2a  
 
 Dla Δ = 0 jedynym rozwiązaniem jest:  
  
