@@ -44,3 +44,5 @@ To może teraz troche matematyki? Dodajmy do siebie dwie liczby:
 4
 >>> 
 ```
+
+To by było na tyle, proste prawda? W takim razie zapraszam na nasze pierwsze zajęcia!
