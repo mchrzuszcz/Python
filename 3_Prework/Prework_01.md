@@ -45,4 +45,31 @@ To może teraz troche matematyki? Dodajmy do siebie dwie liczby:
 >>> 
 ```
 
-To by było na tyle, proste prawda? W takim razie zapraszam na nasze pierwsze zajęcia!
+## Podstawowe typy danych 
+
+---
+
+* typ całkowity (*int*)
+* typ zmiennoprzecinkowy (*float*)
+* typ logiczny (*bool*)
+* typ tekstowy (*str*)
+* zmienne są typowane dynamicznie, nie trzeba definiować ich typu, python sam rozpoznaje
+
+
+```python
+x = 1   # [zmienna] [operator przypisania] [wartość]
+y = 1.0
+z = True
+
+# drukuj typy zmiennych x, y i z (oddzielone przecinkiem)
+print(type(x), type(y), type(z))
+```
+
+    (<type 'int'>, <type 'float'>, <type 'bool'>)
+
+
+Znak "#" oznacza komentarz czyli fragment kodu w którym moze pisać co chcemy a python to zignoruje i przejdzie do kolejnej linii.
+
+To by było na tyle, proste prawda?  
+
+W takim razie <b>zapraszam</b> na nasze pierwsze zajęcia!
