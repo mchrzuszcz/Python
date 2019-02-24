@@ -35,8 +35,10 @@ Napisz skrypt, który wydrukuję listę studentów uczęszczających na oba wyk�
 
 ---
 
-Zadanie dla chętnych
+Zadanie 5
 
 Napisz skrypt, który dla zadanego *n* generuje *n* pierwszych wyrazów ciągu "look-and-say".
 
-Rozbij skrypt na mniejsze funkcje.
+Więcej informacji na temat algorytmu -> [look_and_say.]()
+
+Skrypt powininen składać się z przynajmniej dwóch funkcji: look_and_say oraz main. Funkcja look_and_say powinna przyjmować 1 argument, którym będzie liczba którą funkcja ma "przeczytać". 
