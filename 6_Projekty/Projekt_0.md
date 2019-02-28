@@ -9,8 +9,8 @@ Stwórz skrypt, który zagra z użytkownikiem w gre Krowy i Byki. Gra polega na 
 1. Losuje 4-cyfrową liczbę.
 2. Prosi użytkownika o podanie 4-cyfrowej liczby.
 3. Skrypt sprawdza:  
-    - każdą odgadniętą liczbę w poprawnym miejscu i daje 1 krowę za prawidłowe odgadnięcie.
-    - każdą odgadnięta liczbę ale w nie poprawnym miejscu i daję za to 1 byka. 
+    - każdą odgadniętą cyfrę w poprawnym miejscu i daje 1 krowę za prawidłowe odgadnięcie.
+    - każdą odgadnięta cyfrę ale nie w poprawnym miejscu i daję za to 1 byka. 
 4. Przy każdej próbie odgadnięcia informuje użytkownika o liczbie krów i byków.
 5. Zlicza próby odgadnięcia liczby.
 6. Kiedy użytkownik odgadnie wylosowaną liczbę, gra powinna się zakończyć.
