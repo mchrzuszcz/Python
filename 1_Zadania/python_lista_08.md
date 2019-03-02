@@ -41,4 +41,4 @@ Napisz skrypt, który dla zadanego *n* generuje *n* pierwszych wyrazów ciągu "
 
 Więcej informacji na temat algorytmu -> [look_and_say.](../5_Materialy_Pomocnicze/look_and_say.md)
 
-Skrypt powininen składać się z przynajmniej dwóch funkcji: look_and_say oraz main. Funkcja look_and_say powinna przyjmować 1 argument, którym będzie liczba którą funkcja ma "przeczytać". 
+Skrypt powininen składać się z przynajmniej dwóch funkcji: look_and_say oraz main. Funkcja look_and_say powinna przyjmować 1 argument, którym będzie liczba którą funkcja ma "przeczytać" i wynik tego "przeczytania" zwrócić jako wartość string. 
