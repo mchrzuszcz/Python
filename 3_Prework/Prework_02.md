@@ -6,8 +6,9 @@
 
 ---
 
-* zmienna *str* przechowuje tak naprawdę ciąg znaków
-* w którym każdy znak ma określoną pozycję
+Zmienna typu *str* przechowuje tak naprawdę ciąg znaków, liter bądź cyfr, w którym każdy znak ma określoną pozycję. Pozycje natomiast liczymy nie od 1 jak to mamy w zwyczaju ale od 0. 
+ 
+ Czyli upraszczając, w programowaniu liczmy od 0 i zapamiętajmy to sobie bo jest to bardzo ważne i bardzo się nam to przyda w przyszłości.
 
 
 ```python
@@ -19,7 +20,7 @@ s[0] # str[i] -> i-ty znak w ciągu
     'P'
 
 ```python
-s[1] # pierwszy to drugi?
+s[1] # pierwszy to drugi? TAK!
 ```
 
     'y'
@@ -29,6 +30,10 @@ s[2]
 ```
 
     't'
+
+| Litera: | P | y | t | h | o | n |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|Pozycja/Index:| 0 | 1 | 2 | 3 | 4 | 5 | 
 
 ## Lista z ang. (*list*)
 
@@ -180,7 +185,11 @@ print(nieparzyste)
 
 ---
 
-* indeksowanie zaczyna się od 0 a kończy na *n-1*, gdzie *n* - długość ciągu
+Indeksowanie dla powtórki (bo to  bardzo ważne!) zaczyna się od 0 a kończy na *n-1*, gdzie *n* - długość ciągu.   
+
+Długość ciągu w przykładzie ponizej to poprostu ilość liter w słowie "Python" czyli 6, a stosujac wzor n-1 gdzie n jest rowne 6 to 6-1 rowna sie 5 :)  
+
+Sprawdź czy się zgadza!
 
 
 ```python
@@ -213,3 +222,7 @@ s[n] # poza zakresem
     
 
     IndexError: string index out of range
+    
+| Litera: | P | y | t | h | o | n |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|Pozycja/Index:| 0 | 1 | 2 | 3 | 4 | 5 | 
