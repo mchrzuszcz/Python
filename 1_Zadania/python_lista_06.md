@@ -49,3 +49,5 @@ które są długościami boków trójkąta (można założyć, że podane argume
 
 **Przydatne linki do Twierdzenia Cosinusów:**
 - https://en.wikipedia.org/wiki/Law_of_cosines
+- https://www.mathopenref.com/arccos.html
+- https://stackoverflow.com/questions/18583214/calculate-angle-of-triangle-python
