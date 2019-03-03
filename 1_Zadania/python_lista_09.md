@@ -51,4 +51,4 @@ Zaskocz prowadzącego i stwórz swoją własną klasę, która robi coś ciekawe
 
 i / lub
 
-Zmodyfikuj klasę z pierwszego zadania, aby zapamiętywane były informacje o kolejnych odcinkach (wywoływanych funkcją `jedz`). Dodaj funkcje, które umożliwią rysowanie wykresu zależności drogi od czasu oraz prędkości od czasu. *Wsk. matlibplot*
+Zmodyfikuj klasę z pierwszego zadania, aby zapamiętywane były informacje o kolejnych odcinkach (wywoływanych funkcją `jedz`). Dodaj funkcje, które umożliwią rysowanie wykresu zależności drogi od czasu oraz prędkości od czasu. *Wsk. matplotlib*
