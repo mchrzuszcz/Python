@@ -1,6 +1,6 @@
 
 # Python
-## Prework do 3 listy zadań 
+## Prework do 4 listy zadań 
 
 ## Funkcja
 
