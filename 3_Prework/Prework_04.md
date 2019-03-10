@@ -11,10 +11,11 @@ Funkcja? Zestaw kodu, który powinnien wykonywać konkretną, zdefniowana czynno
 ```python
 def dodaj_dwie_liczby(a,b):
     print("Dodaje dwie liczby: {} oraz {}".format(a,b))
-    return a+b
+    print("Wynik: {}".format(a+b))
 
-print(dodaj_dwie_liczby(1,1))
-2
+>>> dodaj_dwie_liczby(1,1)
+Dodaje dwie liczby: 1 oraz 1
+Wynik: 2
 
 ```
 
