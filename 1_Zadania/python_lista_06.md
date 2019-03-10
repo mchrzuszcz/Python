@@ -15,6 +15,9 @@ ciągu geometrycznego (dla zadanych *a1* i *q* - pierwszy wyraz ciągu i iloraz)
 Następnie wydrukuje na ekranie ten ciąg oraz jego podciąg zawierający tylko
 parzyste wyrazy.
 
+<b>Wzór na ciąg geometryczny:</b>  `an = q * (n - 1)`   
+<b>Przykład:</b> `1,3,9,27,81 gdzie a1 = 1, q = 3, n = [2,5]`
+
 ---
 
 Zad 2.
@@ -25,6 +28,8 @@ powinna zwracać *True* lub *False*.
 Napisz skrypt, który sprawdzi, czy podana przez użytkownika liczba jest liczbą pierwszą.
 
 *Uwaga: program powinien pytać do skutku, aż użytkownik poda liczbę naturalną. Wsk.* `str.isdigit()`
+
+**Liczba pierwsza:** liczba naturalna większa od 1, która ma dokładnie dwa dzielniki naturalne: jedynkę i siebie samą. 
 
 ---
 
