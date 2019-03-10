@@ -12,7 +12,7 @@ Powodzenia!
 
 <b>1_Zadania</b> - folder zawierający listy zadań, które będą wykonywane podczas całego kursu.  
 
-<b>2_Przykladowe_Rozwiazania</b> - w tym folderze znajdziesz przykładowe (choc umyślnie nie najlepsze) rozwiązania zadań z powyższego folderu. Przykładowe rozwiazania mają za zadanie pomóc Ci w przypadku zagubienia swoich skryptów lub mają służyć jako podpowiedź przy wykonywaniu zadań domowych.   
+<b>2_Przykladowe_Rozwiazania</b> - w tym folderze znajdziesz przykładowe (choć umyślnie nie najlepsze) rozwiązania zadań z powyższego folderu. Przykładowe rozwiazania mają za zadanie pomóc Ci w przypadku zagubienia swoich skryptów lub mają służyć jako podpowiedź przy wykonywaniu zadań domowych.   
 
 <b>3_Prework</b> - w tym folderze znajdują się materiały, które odpowiednio powinnieneś lub powinnaś przerobić przed przystąpieniem do kolejnej listy zadań.  
 
