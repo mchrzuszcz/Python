@@ -6,7 +6,7 @@
 
 ---
 
-Funkcja? Zestaw kodu, który powinnien wykonywać konkrętną, zdefniowana czynność np. dodawac dwie cyfry.
+Funkcja? Zestaw kodu, który powinnien wykonywać konkretną, zdefniowana czynność np. dodawać dwie cyfry.
 
 ```python
 def dodaj_dwie_liczby(a,b):
@@ -25,7 +25,7 @@ def nazwa_funkcji(parametr_1, parametr_n):
     kod funkcji
 ```
 
-Funkcje powinny być pisane w sposób single responsibility co oznacza, że funkcja powinna wykonywać jedną konkretną czynność. Oznacza to że jeśli funkcja dodaje dwie liczby to wykonuje tylko akcje dodawania, nie powinna miec opcji odejmowania, dzielenia itd. Umożliwia to utrzymanie tzw. czytelności kodu.
+Funkcje powinny być pisane w sposób _single responsibility_ co oznacza, że funkcja powinna wykonywać jedną konkretną czynność. Oznacza to że jeśli funkcja dodaje dwie liczby to wykonuje tylko akcje dodawania, nie powinna mieć opcji odejmowania, dzielenia itd. Umożliwia to utrzymanie tzw. czytelności kodu.
 
 ## Argumenty Pozycyjne (args)
 
@@ -71,4 +71,4 @@ WARTOSC_DOMYSLNA_KLUCZA
 
 Argumenty kluczowe to te, które sa definiowane/przekazywane względem nazwy tak jak klucz w słowniku.
 
- To by było na tyle, **zapraszam** na zajęcia!
+To by było na tyle, **zapraszam** na zajęcia!
