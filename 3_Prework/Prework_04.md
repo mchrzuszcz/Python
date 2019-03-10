@@ -70,3 +70,5 @@ WARTOSC_DOMYSLNA_KLUCZA
 ```
 
 Argumenty kluczowe to te, które sa definiowane/przekazywane względem nazwy tak jak klucz w słowniku.
+
+ To by było na tyle, **zapraszam** na zajęcia!

@@ -39,3 +39,5 @@ Po wywołaniu skryptu skrypt.py otrzymamy:
 W ten sposób możemy tworzyć pliki python'a które będą zbiorem przerożnych funkcji, klas, zmiennych i wielu innych składowych, które to w każdej chwili możemy wykorzystać w różnych skryptach na raz!  
 
 Takie tworzenie modułów jest jednym z pryncypałów zasady DRY czyli DON'T REPEAT YOURSELF, odnosząca się do tego aby nie pisać tego samego kodu wielokrotnie - nie powtarzać go tylko żeby ten kod był reużywalny.
+
+ To by było na tyle, **zapraszam** na zajęcia!
