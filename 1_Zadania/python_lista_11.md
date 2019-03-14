@@ -1,53 +1,34 @@
 # Języki skryptowe - Python
-# Lista Dodatkowa
+# Lista 11
 
 ---
 
-Lista dodatkowa.
+Każdy skrypt oraz funkcja powinna być opisana *docstringiem*.
 
 ---
 
-* Zapoznaj się z pojęciem systemu kontroli wersji
+Zad 1.
 
-* GitHub - załóż konto i utwórz pierwsze repozytorium *zoo*
-
-* Stwórz moduł z klasą *Animal*, która:
-
-  * posiada kilka zmiennych *prywatnych* (np. waga, wiek, ...), których początkowe wartości ustawiane są w funkcji *init*
-  * posiada odpowiednie *gettery* i *settery* dla wszystkich zmiennych, dla których ma to sens
-
-* Umieść plik *animal.py* w swoim repozytorium
-
-* Stwórz moduł z klasą *Bird*, która dziedziczy z *Animal* i posiada dodatkowe funkcjonalności (wg. uznania)
-
-* Umieść plik *bird.py* w swoim repozytorium
-
-* Stwórz kilka klas pochodnych z *Animal*; każdą finalizuj odpowiednim commitem
-
-* Napisz program *zoo*, który umożliwi dodawanie i usuwanie zwierząt do bazy
-
-* commit
-
-* Dodaj do klasy *Animal* funkcję *str*
-
-* commit
-
-* Zaktualizuj *zoo*, aby możliwe było drukowanie listy zwierząt
-
-* commit
-
-* Dodaj możliwość zapisywania stanu *zoo* do pliku
-
-* commit
-
-* Dodaj możliwość wczytywania stanu *zoo* do pliku
-
-* commit
-
-* Rozbuduj *zoo* wg własnego uznania
+Napisz funkcje, która rekurencje będzię sie wywoływała aby wyświetlać zawartość folderu. Folder czyli tak naprawde jego scieżka ma byc przekazywana jako parametr funkcji.
 
 ---
 
-Dla super chętnych:
+Zad 2.
 
-* stwórz GUI do aplikacji *zoo*
+Porównaj `__getattr__` z `__getattribute__` i przedstaw wnioski.
+
+---
+
+Zad 3.
+
+Napisz skrypt, który wczyta [przykładowy plik xml](../5_Materialy_Pomocnicze/kraje.xml) i wypisze wszystkie w nim zawarte nazwy Państw.
+
+**Wskazówka:** biblioteka `xml.etree.ElementTree `
+
+---
+
+Zad 4.
+
+Napisz skrypt, który wczyta [przykładowy plik json](../5_Materialy_Pomocnicze/kraje.json) i wypisze wszystkie w nim zawarte nazwy Państw.
+
+**Wskazówka:** biblioteka `json`
