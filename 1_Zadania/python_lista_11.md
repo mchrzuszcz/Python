@@ -11,7 +11,7 @@ Zad 1.
 
 Napisz funkcje, która rekurencje będzię sie wywoływała aby wyświetlać zawartość folderu. Folder czyli tak naprawde jego scieżka ma byc przekazywana jako parametr funkcji.  
 
-Do wykonania tego zadania wykorzystaj bibliotekę `os`.
+**Wskazówka:** biblioteka `os`
 
 ---
 
