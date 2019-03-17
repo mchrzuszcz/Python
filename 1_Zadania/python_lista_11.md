@@ -9,7 +9,9 @@ Każdy skrypt oraz funkcja powinna być opisana *docstringiem*.
 
 Zad 1.
 
-Napisz funkcje, która rekurencje będzię sie wywoływała aby wyświetlać zawartość folderu. Folder czyli tak naprawde jego scieżka ma byc przekazywana jako parametr funkcji.
+Napisz funkcje, która rekurencje będzię sie wywoływała aby wyświetlać zawartość folderu. Folder czyli tak naprawde jego scieżka ma byc przekazywana jako parametr funkcji.  
+
+Do wykonania tego zadania wykorzystaj bibliotekę `os`.
 
 ---
 
