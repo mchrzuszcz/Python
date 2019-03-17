@@ -187,7 +187,7 @@ print(nieparzyste)
 
 Indeksowanie dla powtórki (bo to  bardzo ważne!) zaczyna się od 0 a kończy na *n-1*, gdzie *n* - długość ciągu.   
 
-Długość ciągu w przykładzie ponizej to poprostu ilość liter w słowie "Python" czyli 6, a stosujac wzor n-1 gdzie n jest rowne 6 to 6-1 rowna sie 5 :)  
+Długość ciągu w przykładzie poniżej to po prostu ilość liter w słowie "Python" czyli 6, a stosując wzór n-1 gdzie n jest równe 6 to 6-1 równa sie 5 :)  
 
 Sprawdź czy się zgadza!
 
