@@ -45,6 +45,23 @@ To może teraz troche matematyki? Dodajmy do siebie dwie liczby:
 >>> 
 ```
 
+## Funkcja print() oraz format()
+
+--- 
+
+Funkcja print() służy do wypisywania tekstu na konsole. Funkcja format() jest bardzo pomocna przy formatowaniu tego co chcemy wyświetlić:  
+
+```python
+>>> print("Hello World!")
+Hello World!
+
+>>> kraj = "Polska"
+>>> print("Hello {}".format(kraj))
+Hello Polska
+```
+
+W miejsce klamr `{}` zostaje wrzucona zawartość zmiennej kraj czyli słowo `Polska`, a następnie funkcja print() wyświetla sformatowany tekst na konsole.
+
 ## Podstawowe typy danych 
 
 ---
