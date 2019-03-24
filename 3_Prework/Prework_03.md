@@ -123,6 +123,22 @@ Co oznacza nieuporządkowany? Otóż oznacza to że gdy go wyświetlamy funkcją
 
 Więc skoro słownik jest zbiorem nieuporządkowanym to znaczy, że nie powinniśmy się odwoływać do jego elementów po indeksie ale po nazwie klucza np. slownik["unikanlna_nazwa_klucza_2"].
 
+Jak dodać coś do słownika? Możemy użyć funkcji wbudowanej update() dla dodania kilku par `klucz:wartosc` na raz:
+
+```python
+>>> slownik = {"klucz0":0}
+>>> slownik.update({"klucz1":1, "klucz2":2})
+>>> slownik
+{"klucz0":0,"klucz1":1, "klucz2":2}
+```
+
+Jak dodać pojedyńczą parę?
+
+```python
+>>> slownik["nowy_klucz"] = "wartość_nowego_klucza"
+{"klucz0":0,"klucz1":1, "klucz2":2, "nowy_klucz": "wartość_nowego_klucza"}
+```
+
 ## Lista składana z ang. (*list comprehension*)
 
 ---
@@ -141,4 +157,18 @@ Lista skladana to nic innego jak krótsze zapisanie dodawania poszczególnych el
  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
  ```
  
+ ## Pobieranie wartości od użytkownika - funcja input()
+
+---
+
+Dzięki funkcji input() jesteśmy w stanie pobrać od użytkownika dowolny ciąg znaków, który może być liczbą, słowem czy nazwą pliku wraz z formatem.
+
+```python
+>>> x = input("Podaj wartosc x: ")
+Podaj wartosc x: 5
+>>> print(x)
+5
+
+```
+
  To by było na tyle, **zapraszam** na zajęcia!
