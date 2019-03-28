@@ -1,5 +1,5 @@
 # Python
-## Projekt 1 - Mieszkaniowy łowca okazji - Frontend
+## Projekt 3 - Mieszkaniowy łowca okazji - Frontend
 
 ### Wymagania wstępne
 
