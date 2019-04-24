@@ -46,7 +46,7 @@ def arg_parser():
     # ponizej tworzymy argument i odpowiednio nadajemy mu nazwe --mode, potem opisujemy jego krotka pomoc (help), 
     # definiujemy jego możliwe wartosci za pomocą argumentu choices dla funkcji add_argument
     # Wartosc domyslna rowna 0, typ argumentu rowny int oraz ze parametr nie jest wymagany -> Required=False
-    parser.add_argument('--mode', help="Mode how to read file, 0 - (default choice) read whole file, 1 - omit lines with # at the beginning, 2 - line numbering", choices=[0,1,2], default=0, type=int, Required=False)
+    parser.add_argument('--mode', help="Mode how to read file, 0 - (default choice) read whole file, 1 - omit lines with # at the beginning, 2 - line numbering", choices=[0,1,2], default=0, type=int, required=False)
     return parser.parse_args() # tutaj parsujemy argumenty i zwracamy z funkcji obiekt praser 
 
 ```
